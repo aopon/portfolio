@@ -1,0 +1,201 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+
+html,
+body {
+  height:auto;
+  background-color:#000;
+    color:#FFF;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+}
+
+p{
+	font-size:12px;	
+}
+
+#wrap {
+	width: 860px;
+	height:auto;
+	margin: 30px 200px 0px 200px;
+	
+
+	
+}
+
+
+
+#header{
+
+}
+
+#gnav{
+float:right;
+margin-top:30px;
+margin-bottom:auto;
+
+}
+#gnav ul{
+list-style:none;
+overflow:hidden;
+
+
+
+}
+#gnav li a{
+display:block;
+color:#FFF;
+text-decoration:none;
+text-align:center;
+
+
+}
+
+
+#gnav li a:hover{
+color:#0FC;
+font-weight: bold;
+font-size:large;
+}
+#gnav li a img{
+border:none;
+}
+#gnav li a span{
+display:block;
+text-indent:0;	
+}
+
+
+
+#gnav li{
+ 
+float:left;	
+width:100px;
+display:inline;
+
+}
+
+
+#pankuzu{
+padding-top:30px;
+padding-bottom:10px;
+border-bottom:#333 1px dotted;	
+}
+
+#pankuzu li{
+display:inline;
+font-size:75%;
+text-align:center;
+
+}
+
+#pankuzu a{
+color:#FFF;
+padding-right:15px;
+background: url(img/icon.png) right center no-repeat;
+background-size:10px;
+
+
+
+}
+
+#pankuzu li a:hover{
+color:#3CF;
+}
+
+
+#slideshow {
+   position: relative;
+   width:  860px; /* 画像の横幅に合わせて記述 */
+   height: 491px; /* 画像の高さに合わせて記述 */
+}
+#slideshow img {
+   position: absolute;
+   top: 0;
+   left:0;
+   z-index: 8;
+   opacity: 0.0;
+}
+#slideshow img.active {
+   z-index: 10;
+   opacity: 1.0;
+}
+#slideshow img.last-active {
+   z-index: 9;
+}
+
+
+#main{
+margin-top:50px;	
+
+}
+
+
+
+
+#about p{
+width:350px;
+}
+
+.toTop {
+  margin-top: 30px;
+  display: inline-block;
+
+  color: #fff;
+  cursor: pointer;
+}
+
+
+
+
+#footer{
+	clear:both;
+	
+	margin-top: 80px;
+	margin-bottom: auto;
+	background: #333;
+    position: relative;
+	overflow: scroll;
+}
+#footer ul{
+padding:5px 200px 20px 200px;	
+
+}
+
+#footer li{
+display:inline; //li要素を横並びにする設定
+}
+	
+#footer li a{
+margin-right:20px;	
+color:#999;
+text-decoration:none;
+font-size:14px;
+}
+#footer li a:hover{
+color:#FF6;
+
+}
+
+#footer p{
+padding-left:200px;	
+}
+
+#Subscribe{
+overflow:hidden;
+float:right;
+
+}
+
+#mail{
+	
+}
+
+#center p a{
+color:#FFF;	
+}
+
+#center p a:hover{
+color:#FF0;	
+}

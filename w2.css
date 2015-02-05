@@ -1,0 +1,104 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#main{
+
+
+height:auto;
+
+}
+
+.pict{
+float:left;
+}
+
+
+
+.c1{
+margin-bottom:50px ;
+
+
+}
+
+.c2{
+margin:60px 0px 20px 0px;;
+}
+
+h2{
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+h4{
+border-bottom:#fff dotted 1px;	
+}
+
+.c3{
+margin:60px 0px;	
+}
+
+
+.img{
+	
+float:left;
+width:200px;
+
+
+}
+
+.center{
+	text-align:center;	
+}
+
+.text p{
+	font-size:10px;	
+}
+
+#sakuhin{
+clear:both;
+
+
+}
+
+#sakuhin video{
+margin-bottom:40px;	
+}
+
+#内容{
+background-color:#000;
+text-align:center;
+color:#FFF;
+}
+
+
+.toTop{
+	clear:both;	
+}
+.movie{
+	margin-right:30px;
+float:left;
+padding-top:30px;
+padding-botom:50px;
+text-align:center;
+width:255px;
+
+}
+
+
+.movie p{
+font-size:12px;	
+}
+
+
+.slider img{
+height:245px;
+width:430px;
+  border:0px;
+  margin:5px;
+}
+
+#huki{
+	clear:both;
+padding-top:20px;
+}

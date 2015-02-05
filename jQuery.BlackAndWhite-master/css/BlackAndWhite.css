@@ -1,0 +1,70 @@
+.bwWrapper {
+	position:relative;
+	display:block;
+}
+#photo {
+    text-align: center;
+}
+#photo li {
+    display: inline-block;
+    margin: 0 10px;
+	width:237px;
+	
+}
+#photo a {
+    position: relative;
+    display: block;
+}
+#area{
+float:left;
+padding-top:20px;
+}
+
+
+#w1 h4{
+	border-bottom:#fff dotted 1px;
+	
+}
+.c1{
+	float:left;
+width:200px;
+margin-bottom:50px;
+margin-left:50px;
+
+}
+.c2{
+float:left;
+width:300px;
+margin-bottom:50px;
+margin-left:50px;
+
+}
+.c3{
+clear:both;
+width:500px;
+padding-top:50px;
+margin-bottom:50px;
+
+
+}
+.c4{
+width:500px;
+
+}
+
+
+ p{
+	line-height:18px;	
+}
+
+#kino{
+	
+
+}
+
+
+.shadow {
+    margin-top: 5px; /* 画像の上の余白*/
+    display: inline-block;
+    box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8); /*横方向　下方向　ぼかし　広がり　色 */
+}	

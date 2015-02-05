@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Script-Type" content="text/javascript">
+<title>Aoi Sugasaki</title>
+<link href="index.css" rel="stylesheet" type="text/css" media="all"/>
+
+<script type="text/javascript" src="jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript">
+function slideSwitch() {
+   var $active = $('#slideshow img.active');
+
+   if ( $active.length == 0 ) $active = $('#slideshow img:last');
+
+   var $next =  $active.next().length ? $active.next()
+      : $('#slideshow img:first');
+
+   $active.addClass('last-active');
+
+   $next.css({opacity: 0.0})
+      .addClass('active')
+      .animate({opacity: 1.0}, 1000, function() {
+           $active.removeClass('active last-active');
+      });
+}
+
+$(function() {
+   setInterval( "slideSwitch()", 2500 );
+});
+
+
+$(function(){
+  $('.toTop').click(function () {
+    $('body,html').animate({
+      scrollTop: 0
+    }, 800);
+    return false;
+  });
+});
+
+
+</script>
+
+
+</head>
+
+<body>
+
+<div id="wrap">
+<div id="gnav">
+<ul>
+<li><a href="index.html"><img src="home.png" width="50" height="50" /><span>Home</span></a></li>
+<li><a href="profile.html"><img src="profile.png" width="50" height="50" /><span>Profile</span></a></li>
+<li><a href="work.html"><img src="work.png" width="50" height="50" /><span>Work</span></a></li>
+<li><a href="contact.html"><img src="mail.png" width="50" height="50" /><span>Contact</span></a></li>
+</ul>
+</div><!--#gnav-->
+
+<div id="header"><a href="index.html"><img src="rogo２.png" width="204" height="103" /></a><br>
+<span style="font-size:12px;"> FUTURE UNIVERSITY HAKODATE</span>
+
+</div><!--#header-->
+
+
+
+
+<div id ="main">
+
+<div id = "slideshow">
+
+<img src="img/IMG_8792のコピー.jpg" width="860" height="491" class="active"/>
+<img src="img/DSC_0525.jpg" width="860" height="491" />
+<img src="img/IMG_8926.jpg" width="860" height="491" />
+<img src="img/DSC_0164のコピー.jpg" width=s"860" height="491" />
+<img src="img/DSC_0049.jpg" width=s"860" height="491" />
+
+</div><!--#slideshow-->
+
+
+
+
+<div id ="about">
+<h3>ありのままの私。</h3>
+<p>これは、私が制作したポートフォリオサイトです。Webデザイナーを目指し、初めて制作した成果物をどうぞご覧下さい。</p>
+</div><!--#about-->
+
+</div><!--#main-->
+
+
+</div>
+<div id="footer">
+  <div id="Subscribe"> 
+  
+  <p>Subscribe</p>
+    <ul>
+      <li><a href="https://twitter.com/" target="_blank">Twitter</a></li>
+      <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+      <li><a href="#">Blog</a></li>
+    </ul>
+  </div>
+  <!--#Subscribe-->
+ <p>Contents</p>
+  <ul>
+    <li><a href="index.html"><img src="img/home.png" height="25" width="25" />Home</a></li>
+    <li><a href="profile.html"><img src="img/profile.png" height="25" width="25" />Profile</a></li>
+    <li><a href="work.html"><img src="img/work.png" height="25" width="25" />Work</a></li>
+    <li><a href="contact.html"><img src="img/mail.png" height="30" width="30"/>Contact</a></li>
+  </ul>
+</div><!--#wrap--><!--#footer-->
+
+
+
+
+
+
+
+</body>
+</html>
